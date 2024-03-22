@@ -170,9 +170,6 @@ class protein(seq):
         )
         f.close()
 
-    # To the protein class, add a method called mol_weight, which returns the total molecular
-    # weight of the protein sequence. The variable aa_mol_weights in the “helpful variables”
-    # file should be helpful. This is a python dictionary of molecular weights for each amino acid
     def mol_weight(self):
         weight_aa = 0
         for i in self.sequence:
